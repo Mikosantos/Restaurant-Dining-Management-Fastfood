@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dining Management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .background-container {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                background-image: url('index4-bg.png');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                /* filter: blur(5px); */
+                filter: blur(3px);
+                
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 90vh;
+                margin: 0;
+            }     
+
+            h1 {
+                font-family: Papyrus;
+                color: white;
+                font-size: 100px; /* Adjust the font size as needed */
+                margin-bottom: 20px;
+            }
+            
+            form input[type="submit"] {
+                font-family: Comic Sans MS;
+                padding: 10px 20px; /* Adjust the values as needed */
+                font-size: 22px;   /* Adjust the font size as needed */
+                width: 300px;
+                font-style: Italic;
+            }
+            
+            form {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background-container"></div>
+        <h1>Dining Management</h1>
+        <form action="add_order.jsp">
+            <input type="submit" value="Place an order">
+        </form>
+        
+        <form action="manage_meal.html"><br>
+            <input type="submit" value="Manage Meals">
+        </form>
+        
+        <form action="manage_ingredients.html"><br>
+            <input type="submit" value="Manage Ingredients">
+        </form>
+        
+        <form action="manage_staff.html"><br>
+            <input type="submit" value="Manage Staff">
+        </form>
+        
+        <form action="generate_report.html"><br>
+            <input type="submit" value="Generate Report">
+        </form>
+        
+        <form action="manage_order_history.html"><br>
+            <input type="submit" value="View Order History">
+        </form>
+    </body>
+</html>
