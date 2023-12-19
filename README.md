@@ -1,5 +1,5 @@
 <h1 align="center">  Restaurant Dining Management Fastfood Database Application <h1 align="center">
-<img src="https://github.com/Mikosantos/Restaurant-Dining-Management-Fastfood/assets/92857538/7efa01b4-0e7d-421d-bf5e-97382d858cc7" alt="initScreen" width="1000" height="475">
+<img src="https://github.com/Mikosantos/Restaurant-Dining-Management-Fastfood/assets/92857538/7efa01b4-0e7d-421d-bf5e-97382d858cc7" alt="initScreen" width="1000" height="450">
 
 ## Overview
 This repository documents the development process of the <b>Restaurant Dining Management Fastfood</b> database application which is a requirements for the <b>CCINFOM</b> course, "Introduction to Information Management" at De La Salle University. The project began with the conceptualization of core data and field requirements, followed by the modeling of the database using the <i>Entity-Relationship-Table</i> (ERT) model. The ERT model is detailed in [ERT_Model_FastfoodDiningManagement](https://github.com/Mikosantos/Restaurant-Dining-Management-Fastfood/files/13714583/ERT_Model_FastfoodDiningManagement.pdf) (in pdf form) or [ERT_Model_FastfoodDiningManagement](https://github.com/Mikosantos/Restaurant-Dining-Management-Fastfood/blob/main/DB_DESIGN_APP.mwb) (in mwb form).
